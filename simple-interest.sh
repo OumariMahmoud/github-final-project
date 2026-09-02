@@ -1,14 +1,14 @@
 #!/bin/bash
 
-echo "Enter the principal:"
-read p
+# Simple Interest Calculator
+# Copyright 2026 Mahmoud Oumari
 
-echo "Enter the rate of interest:"
-read r
+echo "Simple Interest Calculator"
 
-echo "Enter the time period:"
-read t
+read -p "Enter the principal amount: " principal
+read -p "Enter the annual interest rate (%): " rate
+read -p "Enter the time in years: " time
 
-s=$((p * r * t / 100))
+interest=$(echo "scale=2; ($principal * $rate * $time) / 100" | bc)
 
-echo "Simple Interest: $s"
+echo "Simple Interest: $interest"
