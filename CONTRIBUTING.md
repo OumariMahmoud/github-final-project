@@ -1,7 +1,29 @@
-# Contributing
+# Contributing to Calculator
 
-All contributions, bug reports, bug fixes, documentation improvements, enhancements, and ideas are welcome.
+All contributions are welcome!
 
-Please create an issue or submit a pull request with your proposed changes.
+We welcome:
 
-Thank you for contributing to this project!
+* Bug reports
+* Bug fixes
+* Documentation improvements
+* Enhancements
+* New ideas
+
+## How to Contribute
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes.
+4. Test your changes.
+5. Commit your changes.
+6. Push your branch to GitHub.
+7. Open a Pull Request.
+
+Please make sure your contributions are clear, useful, and related to the project.
+
+Thank you for contributing to the Calculator project!
+
+## Author
+
+Mahmoud Oumari
